@@ -1,0 +1,86 @@
+body{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.google{
+    text-align: center;
+    margin-top: 105px;
+}
+img{
+    height: 92px;
+}
+input{
+    margin: 23px 0;
+    width: 15cm;
+    outline: none;
+    height: 1cm;
+    font-size: 15px;
+    text-indent: 40px;
+    border: 1px solid #999;
+    border-radius: 2em;
+}
+.fa-solid{
+    position: absolute;
+}
+.fa-magnifying-glass{
+    margin: 35px -558px;
+}
+.fa-microphone{
+    cursor: pointer;
+    margin: 35px -70px;
+    font-size: 18px;
+}
+.fa-camera{
+    cursor: pointer;
+    margin: 35px -35px;
+    font-size: 18px;
+}
+button{
+    width: 4cm;
+    border-radius: 5px;
+    height: 1cm;
+    background-color: #f8f9fa;
+    border: none;
+    margin: 3px;
+    cursor: pointer;
+}
+.lenguage{
+    font-size: 13px;
+    margin: 30px;
+}
+[href="len"]{
+    text-decoration: none;
+}
+footer{
+    margin-top: 25px;
+    background-color: #dadce0;
+}
+.fila-1{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+}
+footer p{
+    line-height: 30px;
+    margin-left: 50px;
+}
+.right{
+    font-size: 14px;
+    margin: 0 15px;
+}
+.right:hover{
+    text-decoration: underline;
+}
+[href="len"]:hover{
+    text-decoration: underline;
+}
+button:hover{
+    border: 1px solid #888;
+    box-shadow: 0 0 1px 0;
+}
+input:hover{
+    border: none;
+    box-shadow: 0 0 5px 0;
+}
